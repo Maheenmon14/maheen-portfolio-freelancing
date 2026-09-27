@@ -1,4 +1,5 @@
 import './App.css'
+import mossOakImage from './assets/moss-oak-preview.png'
 
 function App() {
   return (
@@ -82,17 +83,11 @@ function App() {
 
             <div className="project-image">
               <div className="project-preview">
-                <div className="preview-nav">
-                  <span>MOSS & OAK</span>
-                  <span>ABOUT &nbsp; MENU &nbsp; VISIT</span>
-                </div>
-
-                <div className="preview-content">
-                  <p>YOUR COSY CORNER</p>
-                  <h3>in the city.</h3>
-                  <div className="preview-line"></div>
-                </div>
-              </div>
+  <img
+    src={mossOakImage}
+    alt="Moss & Oak Café website"
+  />
+</div>
             </div>
 
             <div className="project-info">
